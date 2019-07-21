@@ -1,1 +1,1 @@
-This Folders contain the code for LeetCode Problems.
+This Folder contains the solutions for LeetCode Problems.
