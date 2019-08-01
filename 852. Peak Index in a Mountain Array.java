@@ -1,14 +1,5 @@
 /**
-<<<<<<< HEAD
-
-
- Let's call an array A a mountain if the following properties hold:
-
->>>>>>> ca985ead7004119052b3bf87b62ec7d0000528fe
-=======
 Let's call an array A a mountain if the following properties hold:
->>>>>>> ca985ead7004119052b3bf87b62ec7d0000528fe
-
 A.length >= 3
 There exists some 0 < i < A.length - 1 such that A[0] < A[1] < ... A[i-1] < A[i] > A[i+1] > ... > A[A.length - 1]
 Given an array that is definitely a mountain, return any i such that A[0] < A[1] < ... A[i-1] < A[i] > A[i+1] > ... > A[A.length - 1].
@@ -28,6 +19,7 @@ Note:
 A is a mountain, as defined above.
 
 **/
+
 /**
 Runtime: 0 ms, faster than 100.00% of Java online submissions for Peak Index in a Mountain Array.
 Memory Usage: 38.4 MB, less than 100.00% of Java online submissions for Peak Index in a Mountain Array.
@@ -71,12 +63,6 @@ class Solution {
 	else 
 		return -1;
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 }
-=======
-}
->>>>>>> ca985ead7004119052b3bf87b62ec7d0000528fe
-=======
-}
->>>>>>> ca985ead7004119052b3bf87b62ec7d0000528fe
+
