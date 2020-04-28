@@ -42,7 +42,7 @@ func main() {
 	s = remove(s, 0)
 	printSlice(s)
 	s = remove(s, 0)
-	printSlice(s)
+	printSlice(s)ku
 	fmt.Println("c : ", count(s))
 }
 
