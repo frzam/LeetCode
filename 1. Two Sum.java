@@ -15,6 +15,7 @@ return [0, 1].
 **/
 
 class Solution {
+    //very old solution.
     public int[] twoSum(int[] nums, int target) {
         int ret[] = new int[2];
         int arr[] = new int[nums.length];
