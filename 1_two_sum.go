@@ -1,14 +1,13 @@
 package leetcode
 
 func twoSum(nums []int, target int) []int {
-
 	count := make(map[int]int)
 	for i := 0; i < len(nums); i++ {
-		if _, ok := count[target-nums[i]]; ok {
-			return []int{i, count[target-nums[i]]}
+		if v, ok := count[nums[i]]; ok {
+			return []int{v, i}
+		} else {
+			count[target-nums[i]] = i
 		}
-		count[nums[i]] = i
-
 	}
-	return []int{}
+	return []int{-1, -1}
 }
